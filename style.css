@@ -114,3 +114,41 @@ animation:float 3s ease-in-out infinite;
 50%{transform:translateY(-15px);}
 100%{transform:translateY(0);}
 }
+.birthday{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:white;
+background:linear-gradient(135deg,#ff4fa3,#ffb6d9,#ffd6eb);
+overflow:hidden;
+}
+
+.title{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.message{
+font-size:20px;
+line-height:1.8;
+max-width:700px;
+margin:25px;
+}
+
+@keyframes fly{
+
+0%{
+transform:translateY(0) scale(1);
+opacity:1;
+}
+
+100%{
+transform:translateY(-120vh) scale(1.8);
+opacity:0;
+}
+
+}

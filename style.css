@@ -60,3 +60,41 @@ opacity:0;
 visibility:hidden;
 }
 }
+.loading{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+color:white;
+}
+
+.loading h1{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.loading p{
+font-size:20px;
+line-height:1.8;
+max-width:650px;
+margin-bottom:30px;
+}
+
+#startBtn{
+background:white;
+color:#ff4fa3;
+border:none;
+padding:15px 35px;
+font-size:18px;
+border-radius:50px;
+cursor:pointer;
+transition:.3s;
+font-weight:bold;
+}
+
+#startBtn:hover{
+transform:scale(1.08);
+box-shadow:0 0 20px white;
+}

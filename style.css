@@ -98,3 +98,19 @@ font-weight:bold;
 transform:scale(1.08);
 box-shadow:0 0 20px white;
 }
+.photo{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+margin:25px 0;
+border:6px solid white;
+box-shadow:0 0 30px rgba(255,255,255,.8);
+animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
